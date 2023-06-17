@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+    .one{
+      background-color: #E72F24;
+      grid-column-start: 1;
+      grid-column-end: 320;
+      grid-row-start: 1;
+      grid-row-end: 414;
+    }
+    .two{
+      background-color: #F0F1EC;
+      grid-column-start: 329;
+      grid-column-end: 748;
+      grid-row-start: 1;
+      grid-row-end: 414;
+    }
+    .three{
+      background-color: #F0F1EC;
+      grid-column-start: 1;
+      grid-column-end: 320;
+      grid-row-start: 423;
+      grid-row-end: 719;
+    }
+    .four{
+      background-color: #F0F1EC;
+      grid-column-start: 329;
+      grid-column-end: 689;
+      grid-row-start: 423;
+      grid-row-end: 719;
+    }
+    .five{
+      background-color: #004592;
+      grid-column-start: 698;
+      grid-column-end: 748;
+      grid-row-start: 423;
+      grid-row-end: 553;
+    }
+    .six{
+      background-color: #F0F1EC;
+      grid-column-start: 698;
+      grid-column-end: 748;
+      grid-row-start: 563;
+      grid-row-end: 748;
+    }
+    .seven{
+      background-color: #F0F1EC;
+      grid-column-start: 1;
+      grid-column-end: 320;
+      grid-row-start: 728;
+      grid-row-end: 748;
+    }
+    .eight{
+      background-color: #F9D01E;
+      grid-column-start: 329;
+      grid-column-end: 529;
+      grid-row-start: 728;
+      grid-row-end: 748;
+    }
+    .nine{
+      background-color: #232629;
+      grid-column-start: 538;
+      grid-column-end: 689;
+      grid-row-start: 728;
+      grid-row-end: 748;
+    }
+    .grid-container{
+      display: grid;
+      height: 748px;
+      width: 748px;
+      grid-template-columns: repeat(748, 1px);
+      grid-template-rows: repeat(748, 1px);
+      background-color: black;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="grid-container">
+    <div class="box one"></div>
+    <div class="box two"></div>
+    <div class="box three"></div>
+    <div class="box four"></div>
+    <div class="box five"></div>
+    <div class="box six"></div>
+    <div class="box seven"></div>
+    <div class="box eight"></div>
+    <div class="box nine"></div>
+  </div>
+</body>
+
+</html>
